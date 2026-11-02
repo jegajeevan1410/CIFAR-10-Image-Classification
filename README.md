@@ -1,6 +1,6 @@
 # CIFAR-10 Image Classification
 
-I built a CNN from scratch in TensorFlow/Keras to classify the 10 classes of the CIFAR-10 dataset. I trained a baseline model first, then added a simplified ResNet block (Part 2, Option A) and compared the two models.
+I built a CNN from scratch in TensorFlow/Keras to classify the 10 classes of the CIFAR-10 dataset. I trained a baseline model first, then added a simplified ResNet block and compared the two models.
 
 ## Project Structure
 
