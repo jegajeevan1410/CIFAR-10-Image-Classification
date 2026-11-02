@@ -75,7 +75,7 @@ Why I made these choices:
 - **Dropout increases in deeper blocks** (0.2 to 0.5), because those layers have more parameters and overfit more easily.
 - **L2 regularisation** (weight decay 0.0001) on every conv layer is another guard against overfitting.
 
-### Residual Model (Part 2, Option A)
+### Residual Model 
 
 The residual model has the same 4 blocks, filters and dropout rates as the baseline. The difference is that in each block, the second conv layer is replaced by a **simplified ResNet block**:
 
